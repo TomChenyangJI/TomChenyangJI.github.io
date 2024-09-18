@@ -1,153 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Homepage</title>
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-        body {
-            padding-top: 56px;
-        }
-        .jumbotron {
-            background-color: #f8f9fa;
-        }
-        .navbar-dark .navbar-nav .nav-link {
-            color: white;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chenyang Ji - Personal Webpage</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 70px;
+    }
+    h1, h2, h3 {
+      margin-top: 20px;
+    }
+    .section-title {
+      background-color: #f8f9fa;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Chenyang Ji</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#activities">Activities</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Your Name</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#publications">Publications</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Header Section -->
-    <header class="jumbotron text-center">
-        <div class="container">
-            <h1 class="display-4">Your Name</h1>
-            <p class="lead">Your Title | Your Occupation | Your Location</p>
-        </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="py-5">
-        <div class="container">
-            <h2 class="text-center">About Me</h2>
-            <p class="lead text-center">A brief introduction about you. Include your education, work experience, and areas of interest.</p>
-        </div>
+  <div class="container">
+    <section id="about">
+      <h1 class="text-center">Chenyang Ji</h1>
+      <p class="text-center">
+        ji.chenyang@outlook.com | +86 19121806127 <br>
+        No. 18 Group 12, Wuweicun, Yanhe Street, Huai'an, China 223008
+      </p>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center">Projects</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="path_to_project_image1.jpg" alt="Project Image 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">A brief description of your project.</p>
-                            <a href="project_link_1" class="btn btn-primary">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="path_to_project_image2.jpg" alt="Project Image 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 2</h5>
-                            <p class="card-text">A brief description of your project.</p>
-                            <a href="project_link_2" class="btn btn-primary">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="path_to_project_image3.jpg" alt="Project Image 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 3</h5>
-                            <p class="card-text">A brief description of your project.</p>
-                            <a href="project_link_3" class="btn btn-primary">View Project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="education">
+      <h2 class="section-title">Education</h2>
+      <ul>
+        <li><strong>Technical University of Munich</strong> - Exchange student in Management and Technology (2021-2022)</li>
+        <li><strong>Tongji University</strong> - Master's in Industrial Engineering (2019-2022)</li>
+        <li><strong>Jinling Institute of Technology</strong> - Bachelor's in Logistics Management (2014-2018)</li>
+      </ul>
     </section>
 
-    <!-- Publications Section -->
-    <section id="publications" class="py-5">
-        <div class="container">
-            <h2 class="text-center">Publications</h2>
-            <ul class="list-group">
-                <li class="list-group-item">Publication 1: <a href="publication_link_1">Download</a></li>
-                <li class="list-group-item">Publication 2: <a href="publication_link_2">Download</a></li>
-                <li class="list-group-item">Publication 3: <a href="publication_link_3">Download</a></li>
-            </ul>
-        </div>
+    <section id="experience">
+      <h2 class="section-title">Experience</h2>
+      <ul>
+        <li><strong>Huawei</strong> - Full-time R&D Software Engineer (2022-2024)</li>
+        <li><strong>Tongji University</strong> - Graduate Researcher (2019-2022)</li>
+        <li><strong>Huying Big-Data Co. Ltd.</strong> - Software Engineering Intern (2021)</li>
+        <li><strong>Polaris Education</strong> - Private Math Tutor (2019)</li>
+      </ul>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center">Contact</h2>
-            <form>
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
-        </div>
+    <section id="publications">
+      <h2 class="section-title">Publications</h2>
+      <ul>
+        <li>Ji, C., & Lin, J. (2023). Research on Methanol Futures Price Forecast and Trading Strategy Based on Random Forest Method. <em>Shanghai Management Science</em>, 2023(01), 113-118.</li>
+      </ul>
     </section>
 
-    <!-- Footer -->
-    <footer class="py-4 bg-dark text-white-50">
-        <div class="container text-center">
-            <small>&copy; 2024 Your Name. All Rights Reserved.</small>
-        </div>
-    </footer>
+    <section id="skills">
+      <h2 class="section-title">Skills</h2>
+      <ul>
+        <li>Languages & Tools: Python, C/C++, Linux, Flask, SQL, HTML, CSS, JavaScript, Git, ROS, Java, Scikit-learn, PyTorch, Pandas, NumPy</li>
+        <li>Courses: Machine Learning, Deep Learning, Reinforcement Learning, Data Structure, Operating Systems, Programming Robots with ROS</li>
+      </ul>
+    </section>
 
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <section id="activities">
+      <h2 class="section-title">Activities</h2>
+      <ul>
+        <li>Youth League Branch Secretary (2019-2022) - Organized learning sessions and annual meetings</li>
+        <li>Sustainable Entrepreneurship Workshop (2021) - Proposed solutions for food waste in Japan</li>
+        <li>Community Service: COVID-19 vaccine volunteer (2021-2022)</li>
+      </ul>
+    </section>
+  </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
